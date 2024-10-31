@@ -1,0 +1,46 @@
+/*
+ * Style for the login page template
+ */
+
+div#ab-opa-login-page{
+  width: 250px;
+  margin: 15px auto;
+  border: 1px solid #CCC;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+div#ab-opa-login-page input[type="submit"], div#ab-opa-login-page input{
+  width:100%;
+  height:27px;
+  padding:1px;
+  border: 1px solid #c5c8cc;
+  margin-left: -2px;
+}
+
+div#ab-opa-login-page input[type="submit"]{
+  box-sizing: content-box;
+  color: #fff;
+  font-weight:bold;
+  font-size:1em;
+  background-color:#464646;
+  height:33px;
+  cursor:pointer;
+}
+
+div#ab-opa-login-page input[type="submit"]:active{
+    border:1px solid black;
+}
+
+/*
+ * Wrong password
+ */
+div#ab-opa-login-page.wrong input[type="text"]{
+  border: 1px solid #DC143C;
+}
+
+div#ab-opa-login-page.wrong p.wrong{
+  color: #DC143C;
+  font-style: oblique;
+}
